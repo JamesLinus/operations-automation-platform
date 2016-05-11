@@ -1,0 +1,1097 @@
+[2016-01-26 08:22:00,404] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:22:00,689] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:22:26,318] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:22:26,322] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:22:58,667] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:22:58,672] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:23:16,312] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:23:16,316] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:23:27,856] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:23:27,860] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:24:57,623] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:24:57,626] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:29:09,907] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:29:09,912] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:29:12,805] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:29:12,809] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:29:34,187] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:29:34,191] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:29:39,230] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:29:39,234] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:30:21,680] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:30:21,685] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:30:25,496] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:30:25,501] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:30:26,007] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:30:26,199] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:30:29,083] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:30:29,087] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:41:02,169] WARNING : Not Found: /＃
+[2016-01-26 08:41:06,705] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:41:06,710] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:51:23,893] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:51:23,898] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:51:23,982] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:51:23,984] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:53:36,127] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:53:36,130] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:54:29,230] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:54:34,187] ERROR : Internal Server Error: /omaudit/omaudit_run/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./omaudit/views.py", line 64, in omaudit_run
+    for e in ServerHistoryObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:55:02,885] ERROR : Internal Server Error: /autoadmin/server_fun_categ/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 50, in server_fun_categ
+    for e in ServerFunObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 08:55:02,890] ERROR : Internal Server Error: /autoadmin/module_list/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 105, in module_list
+    for e in ModuleObj:
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 118, in _result_iter
+    self._fill_cache()
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 892, in _fill_cache
+    self._result_cache.append(self._iter.next())
+  File "/usr/lib/python2.6/site-packages/django/db/models/query.py", line 291, in iterator
+    for row in compiler.results_iter():
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 763, in results_iter
+    for rows in self.execute_sql(MULTI):
+  File "/usr/lib/python2.6/site-packages/django/db/models/sql/compiler.py", line 817, in execute_sql
+    cursor = self.connection.cursor()
+  File "/usr/lib/python2.6/site-packages/django/db/backends/__init__.py", line 317, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/usr/lib/python2.6/site-packages/django/db/backends/mysql/base.py", line 387, in _cursor
+    self.connection = Database.connect(**kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.6/site-packages/MySQL_python-1.2.5-py2.6-linux-x86_64.egg/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.0.250' (111)")
+[2016-01-26 11:50:24,757] ERROR : connect rpyc server error:[Errno 111] Connection refused
+[2016-01-26 13:00:29,739] WARNING : Not Found: /＃
+[2016-01-26 13:03:39,425] ERROR : Internal Server Error: /autoadmin/module_add/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 39, in module_add
+    return render_to_response('autoadmin/module_add.html',res_template_dist)
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 20, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 169, in render_to_string
+    t = get_template(template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 145, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 138, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: autoadmin/module_add.html
+[2016-01-26 13:06:08,790] ERROR : Internal Server Error: /autoadmin/module_add/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 39, in module_add
+    return render_to_response('autoadmin/module_add.html',res_template_dist)
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 20, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 169, in render_to_string
+    t = get_template(template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 145, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 138, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: autoadmin/module_add.html
+[2016-01-26 13:07:16,480] ERROR : Internal Server Error: /autoadmin/module_add/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 39, in module_add
+    return render_to_response('autoadmin/module_add.html',res_template_dist)
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 20, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 169, in render_to_string
+    t = get_template(template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 145, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 138, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: autoadmin/module_add.html
+[2016-01-26 13:07:19,628] ERROR : Internal Server Error: /omaudit/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./omaudit/views.py", line 27, in index
+    return render_to_response('autoadmin/omaudit.html',res_template_dist)
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 20, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 169, in render_to_string
+    t = get_template(template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 145, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 138, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: autoadmin/omaudit.html
+[2016-01-26 13:09:41,834] ERROR : Internal Server Error: /autoadmin/module_add/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./autoadmin/views.py", line 39, in module_add
+    return render_to_response('autoadmin/module_add.html',res_template_dist)
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 20, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 169, in render_to_string
+    t = get_template(template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 145, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 138, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: autoadmin/module_add.html
+[2016-01-26 13:26:43,800] ERROR : connect rpyc server error:[Errno 111] Connection refused
+[2016-01-26 13:27:11,141] ERROR : Internal Server Error: /omaudit/
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "./omaudit/views.py", line 27, in index
+    return render_to_response('autoadmin/omaudit.html',res_template_dist)
+  File "/usr/lib/python2.6/site-packages/django/shortcuts/__init__.py", line 20, in render_to_response
+    return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 169, in render_to_string
+    t = get_template(template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 145, in get_template
+    template, origin = find_template(template_name)
+  File "/usr/lib/python2.6/site-packages/django/template/loader.py", line 138, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: autoadmin/omaudit.html
+[2016-01-26 13:38:15,205] ERROR : connect rpyc server error:[Errno 111] Connection refused
+[2016-01-26 13:38:52,043] ERROR : connect rpyc server error:[Errno 111] Connection refused
+[2016-01-26 13:40:46,967] ERROR : connect rpyc server error:[Errno 111] Connection refused
